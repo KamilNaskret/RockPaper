@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./sass/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="wrapper__top">
+      <div class="wrapper__top__left">
+        <p>Rock</p>
+        <p>Paper</p>
+        <p>Scissors</p>
+      </div>
+      <div class="wrapper__top__right">
+        <div class="wrapper__top__right__container">
+          <h2>Score</h2>
+          <p class="roundGame"></p>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper__middle">
+      <img class="triangle" src="./images/bg-triangle.svg" alt="triangle">
+      <div class="wrapper__middle__container">
+        <img src="./images/icon-paper.svg" class="object" data-options="paper" alt="paper">
+      </div>
+      <div class="wrapper__middle__container">
+        <img src="./images/icon-rock.svg" class="object" data-options="rock" alt="rock">
+      </div>
+      <div class="wrapper__middle__container">
+        <img src="./images/icon-scissors.svg" class="object" data-options="scissors" alt="scissors">
+      </div>
+      <button class="rules" data-rules>Rules</button>
+      <div class="playerHandResult">
+      </div>
+      <div class="aiHandResult">
+      </div>
+      <p class="result">
+      </p>
+      <button class="gameRestart">
+        Play Again
+      </button>
+      <div class="rules-info" data-rules-info>
+        <div class="rules-info-top">
+          <p>Rules</p>
+          <img src="./images/icon-close.svg" alt="close" data-rules-exit>
+        </div>
+        <img src="./images/image-rules.svg" alt="rules" class="rules-triangle">
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Tech Kami</a>.
+    </div>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>

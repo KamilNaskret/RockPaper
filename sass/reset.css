@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #3b4363;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 15px;
+}
+/*# sourceMappingURL=reset.css.map */

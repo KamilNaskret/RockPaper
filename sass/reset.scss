@@ -1,0 +1,12 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    color:hsl(229, 25%, 31%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size:15px;
+}
