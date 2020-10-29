@@ -55,8 +55,10 @@ const checkWin = (playerHand,aiHand) => {
     if(playerHand===aiHand){
         return 'Draw';
     }else if(playerHand==="paper" && aiHand==="rock" || playerHand==="rock" && aiHand==="scissors" || playerHand==="scissors" && aiHand==="paper"){
+        round++;
         return 'You Win';
     }else{
+        round--;
         return 'You Lose';
     }
 }
@@ -74,7 +76,6 @@ const game = (e) => {
         aiHandResult();
         result.innerHTML=gameResult;
         buttonRestart.style.transform="translate(-50%,-50%) scale(1)";
-        round++;
         roundGame(round);
         activeGame=false;
     }
